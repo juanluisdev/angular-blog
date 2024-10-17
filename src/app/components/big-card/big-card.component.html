@@ -1,16 +1,16 @@
 <div class="container__big-card">
     <a href="#">
         <div class="big-card__image">
-            <img src='https://terralivre.org.br/wp-content/uploads/ARTEGRAFICA_G_ELEMENTO_PLACEHOLDER_FOTOGRAFIA.jpg'
+            <img src='{{photoCover}}'
                 alt='image' height="200px" srcset="">
         </div>
 
         <div class="big-card__tittle">
-            <h1>Saiu projeto novo para o portifólio </h1>
+            <h1>{{ cardTitle }}</h1>
         </div>
         <div class="big-card__description">
             <p>
-                Aprendendo Angular + Typescript + Node.js com o bootcamp
+                {{ cardDescription }}
             </p>
         </div>
     </a>
